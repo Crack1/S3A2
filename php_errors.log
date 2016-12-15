@@ -1,0 +1,201 @@
+[15-Dec-2016 02:03:35 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 38
+[15-Dec-2016 02:03:35 UTC] PHP Stack trace:
+[15-Dec-2016 02:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:03:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:03:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:03:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:03:35 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[15-Dec-2016 02:03:35 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[15-Dec-2016 02:03:35 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[15-Dec-2016 02:03:35 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[15-Dec-2016 02:03:35 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:35 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:35 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:35 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[15-Dec-2016 02:03:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 38
+[15-Dec-2016 02:03:56 UTC] PHP Stack trace:
+[15-Dec-2016 02:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:03:56 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:03:56 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:03:56 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:03:56 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[15-Dec-2016 02:03:56 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[15-Dec-2016 02:03:56 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[15-Dec-2016 02:03:56 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[15-Dec-2016 02:03:56 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:56 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:56 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[15-Dec-2016 02:03:56 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[15-Dec-2016 02:04:03 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 38
+[15-Dec-2016 02:04:03 UTC] PHP Stack trace:
+[15-Dec-2016 02:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app.php:0
+[15-Dec-2016 02:04:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app.php:16
+[15-Dec-2016 02:04:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:04:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:04:03 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[15-Dec-2016 02:04:03 UTC] PHP   6. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/prod/classes.php:2871
+[15-Dec-2016 02:04:03 UTC] PHP   7. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/prod/classes.php:3442
+[15-Dec-2016 02:04:03 UTC] PHP   8. class_exists() /home/ubuntu/workspace/s3a2/var/cache/prod/classes.php:2927
+[15-Dec-2016 02:04:03 UTC] PHP   9. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/prod/classes.php:2927
+[15-Dec-2016 02:04:03 UTC] PHP  10. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/prod/classes.php:2927
+[15-Dec-2016 02:04:03 UTC] PHP  11. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[15-Dec-2016 02:07:16 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:07:16 UTC] PHP Stack trace:
+[15-Dec-2016 02:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:07:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:07:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:07:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:07:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:07:16 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:07:16 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:07:55 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:07:55 UTC] PHP Stack trace:
+[15-Dec-2016 02:07:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:07:55 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:07:55 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:07:55 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:07:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:07:55 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:07:55 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:10:03 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:10:03 UTC] PHP Stack trace:
+[15-Dec-2016 02:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:10:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:10:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:10:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:10:03 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:10:03 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:10:03 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:14:41 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:14:41 UTC] PHP Stack trace:
+[15-Dec-2016 02:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:14:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:14:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:14:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:14:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:14:41 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:14:41 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:17:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:17:21 UTC] PHP Stack trace:
+[15-Dec-2016 02:17:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:17:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:17:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:17:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:17:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:17:21 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:17:21 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:30
+[15-Dec-2016 02:19:03 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:19:03 UTC] PHP Stack trace:
+[15-Dec-2016 02:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:19:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:19:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:19:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:19:03 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:03 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:03 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:30
+[15-Dec-2016 02:19:05 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:19:05 UTC] PHP Stack trace:
+[15-Dec-2016 02:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:19:05 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:19:05 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:19:05 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:19:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:05 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:05 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:30
+[15-Dec-2016 02:19:54 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:19:54 UTC] PHP Stack trace:
+[15-Dec-2016 02:19:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:19:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:19:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:19:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:19:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:54 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:19:54 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:30
+[15-Dec-2016 02:20:27 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:20:27 UTC] PHP Stack trace:
+[15-Dec-2016 02:20:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:20:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:20:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:20:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:20:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:20:27 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:20:27 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:20:49 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 36
+[15-Dec-2016 02:20:49 UTC] PHP Stack trace:
+[15-Dec-2016 02:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:20:49 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:20:49 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:20:49 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:20:49 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:20:49 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:20:49 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:31
+[15-Dec-2016 02:26:15 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 37
+[15-Dec-2016 02:26:15 UTC] PHP Stack trace:
+[15-Dec-2016 02:26:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:26:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:26:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:26:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:26:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:26:15 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:26:15 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:32
+[15-Dec-2016 02:26:17 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 37
+[15-Dec-2016 02:26:17 UTC] PHP Stack trace:
+[15-Dec-2016 02:26:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:26:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:26:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:26:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:26:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:26:17 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:26:17 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:32
+[15-Dec-2016 02:27:58 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 37
+[15-Dec-2016 02:27:58 UTC] PHP Stack trace:
+[15-Dec-2016 02:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:27:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:27:58 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:27:58 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:27:58 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:27:58 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:27:58 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:32
+[15-Dec-2016 02:28:00 UTC] PHP Fatal error:  Class 'Symfony\Component\Serializer\Normalizer\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 37
+[15-Dec-2016 02:28:00 UTC] PHP Stack trace:
+[15-Dec-2016 02:28:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:28:00 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:28:00 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:28:00 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:28:00 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:28:00 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:28:00 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:32
+[15-Dec-2016 02:41:11 UTC] PHP Fatal error:  Class 'AppBundle\Controller\GetSetMethodNormalized' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 44
+[15-Dec-2016 02:41:11 UTC] PHP Stack trace:
+[15-Dec-2016 02:41:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:41:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:41:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:41:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:41:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:41:11 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:41:11 UTC] PHP   7. AppBundle\Controller\DefaultController->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:37
+[15-Dec-2016 02:53:20 UTC] PHP Fatal error:  Class 'AppBundle\Services\ObjectNormalizer' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/Helpers.php on line 17
+[15-Dec-2016 02:53:20 UTC] PHP Stack trace:
+[15-Dec-2016 02:53:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 02:53:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 02:53:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 02:53:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 02:53:20 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:53:20 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 02:53:20 UTC] PHP   7. AppBundle\Services\Helpers->json() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:40
+[15-Dec-2016 19:03:06 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 62
+[15-Dec-2016 19:03:06 UTC] PHP Stack trace:
+[15-Dec-2016 19:03:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 19:03:06 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 19:03:06 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 19:03:06 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 19:03:06 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 19:03:06 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 19:11:34 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 66
+[15-Dec-2016 19:11:34 UTC] PHP Stack trace:
+[15-Dec-2016 19:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[15-Dec-2016 19:11:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[15-Dec-2016 19:11:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[15-Dec-2016 19:11:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[15-Dec-2016 19:11:34 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[15-Dec-2016 19:11:34 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
