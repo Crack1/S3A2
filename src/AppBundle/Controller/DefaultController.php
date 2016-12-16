@@ -6,7 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Validator\Constraints as Assert;
-
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 
 class DefaultController extends Controller
@@ -48,23 +48,25 @@ class DefaultController extends Controller
          
          if($json != null){
              ///erwin
-             var_dump($json);
-             
+          //   var_dump($json);
+           
          $params = json_decode($json);
-            var_dump($json->email);
+            //var_dump($params->email);
          $email = (isset($params->email))? $params->email : null;
          $password = (isset($params->password))? $params->password : null;
          
-         
+     
          $emailContraint = new Assert\Email();
          $emailContraint->message = "Email no valido";
          
          $validate_email = $this->get("validator")->validate($email,$emailContraint);
-        echo '-'.$email;
-        echo '-'.$password;
+   
          if(count($validate_email)== 0 && $password != null){
           $signUp =  $auth->signup($email, $password);
-          return $helpers->json($signUp);
+     
+       return new JsonResponse($signUp);
+    
+         // return $helpers->json($signUp);
          }else{
              echo 'Data incorrecta';
          }

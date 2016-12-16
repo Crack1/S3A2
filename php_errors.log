@@ -199,3 +199,259 @@
 [15-Dec-2016 19:11:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
 [15-Dec-2016 19:11:34 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
 [15-Dec-2016 19:11:34 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:39:59 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 66
+[16-Dec-2016 03:39:59 UTC] PHP Stack trace:
+[16-Dec-2016 03:39:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:39:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:39:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:39:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:39:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:39:59 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:40:41 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 66
+[16-Dec-2016 03:40:41 UTC] PHP Stack trace:
+[16-Dec-2016 03:40:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:40:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:40:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:40:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:40:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:40:41 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:46:55 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 65
+[16-Dec-2016 03:46:55 UTC] PHP Stack trace:
+[16-Dec-2016 03:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:46:55 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:46:55 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:46:55 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:46:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:46:55 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:47:26 UTC] PHP Fatal error:  Call to undefined method AppBundle\Services\JwtAuth::signup() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 66
+[16-Dec-2016 03:47:26 UTC] PHP Stack trace:
+[16-Dec-2016 03:47:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:47:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:47:26 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:47:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:47:26 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:47:26 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:48:27 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 26
+[16-Dec-2016 03:48:27 UTC] PHP Stack trace:
+[16-Dec-2016 03:48:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:48:27 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:48:27 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:48:27 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:48:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:48:27 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:48:27 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 03:51:53 UTC] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 19
+[16-Dec-2016 03:51:53 UTC] PHP Stack trace:
+[16-Dec-2016 03:51:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:51:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:51:53 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:51:53 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:51:53 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:51:53 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:51:53 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:44
+[16-Dec-2016 03:51:53 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[16-Dec-2016 03:51:53 UTC] PHP   9. appDevDebugProjectContainer->getApp_JwtAuthService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[16-Dec-2016 03:51:53 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 03:51:53 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 03:51:53 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[16-Dec-2016 03:59:30 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 03:59:30 UTC] PHP Stack trace:
+[16-Dec-2016 03:59:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 03:59:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 03:59:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 03:59:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 03:59:30 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:59:30 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 03:59:30 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:00:09 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:00:09 UTC] PHP Stack trace:
+[16-Dec-2016 04:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:00:09 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:00:09 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:00:09 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:00:09 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:00:09 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:00:09 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:01:00 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:01:00 UTC] PHP Stack trace:
+[16-Dec-2016 04:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:01:00 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:01:00 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:01:00 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:01:00 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:01:00 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:01:00 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:01:42 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:01:42 UTC] PHP Stack trace:
+[16-Dec-2016 04:01:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:01:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:01:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:01:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:01:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:01:42 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:01:42 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:02:17 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:02:17 UTC] PHP Stack trace:
+[16-Dec-2016 04:02:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:02:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:02:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:02:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:02:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:02:17 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:02:17 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:02:39 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:02:39 UTC] PHP Stack trace:
+[16-Dec-2016 04:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:02:39 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:02:39 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:02:39 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:02:39 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:02:39 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:02:39 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:03:15 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:03:15 UTC] PHP Stack trace:
+[16-Dec-2016 04:03:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:03:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:03:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:03:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:03:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:03:15 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:03:15 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:04:35 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:04:35 UTC] PHP Stack trace:
+[16-Dec-2016 04:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:04:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:04:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:04:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:04:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:04:35 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:04:35 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:05:22 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:05:22 UTC] PHP Stack trace:
+[16-Dec-2016 04:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:05:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:05:22 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:05:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:05:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:05:22 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:05:22 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:05:24 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:05:24 UTC] PHP Stack trace:
+[16-Dec-2016 04:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:05:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:05:24 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:05:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:05:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:05:24 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:05:24 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:06:17 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:06:17 UTC] PHP Stack trace:
+[16-Dec-2016 04:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:06:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:06:17 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:06:17 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:06:17 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:06:17 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:06:17 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:66
+[16-Dec-2016 04:07:38 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:07:38 UTC] PHP Stack trace:
+[16-Dec-2016 04:07:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:07:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:07:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:07:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:07:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:38 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:38 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:67
+[16-Dec-2016 04:07:40 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:07:40 UTC] PHP Stack trace:
+[16-Dec-2016 04:07:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:07:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:07:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:07:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:07:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:40 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:40 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:67
+[16-Dec-2016 04:07:41 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:07:41 UTC] PHP Stack trace:
+[16-Dec-2016 04:07:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:07:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:07:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:07:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:07:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:41 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:07:41 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:67
+[16-Dec-2016 04:08:07 UTC] PHP Fatal error:  Call to undefined function AppBundle\Services\isObject() in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 27
+[16-Dec-2016 04:08:07 UTC] PHP Stack trace:
+[16-Dec-2016 04:08:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 04:08:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 04:08:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 04:08:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 04:08:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:08:07 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 04:08:07 UTC] PHP   7. AppBundle\Services\JwtAuth->signup() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:67
+[16-Dec-2016 18:47:22 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 54
+[16-Dec-2016 18:47:22 UTC] PHP Stack trace:
+[16-Dec-2016 18:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:47:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:47:22 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:47:22 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:47:22 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:47:22 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:47:22 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:44
+[16-Dec-2016 18:47:22 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[16-Dec-2016 18:47:22 UTC] PHP   9. appDevDebugProjectContainer->getApp_JwtAuthService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[16-Dec-2016 18:47:22 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:47:22 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:47:22 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[16-Dec-2016 18:49:29 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 54
+[16-Dec-2016 18:49:29 UTC] PHP Stack trace:
+[16-Dec-2016 18:49:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:49:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:49:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:49:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:49:29 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:49:29 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:49:29 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:44
+[16-Dec-2016 18:49:29 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[16-Dec-2016 18:49:29 UTC] PHP   9. appDevDebugProjectContainer->getApp_JwtAuthService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[16-Dec-2016 18:49:29 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:49:29 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:49:29 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[16-Dec-2016 18:51:25 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/JwtAuth.php on line 54
+[16-Dec-2016 18:51:25 UTC] PHP Stack trace:
+[16-Dec-2016 18:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:51:25 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:51:25 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:51:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:51:25 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:51:25 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:51:25 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:44
+[16-Dec-2016 18:51:25 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[16-Dec-2016 18:51:25 UTC] PHP   9. appDevDebugProjectContainer->getApp_JwtAuthService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[16-Dec-2016 18:51:25 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:51:25 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:323
+[16-Dec-2016 18:51:25 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[16-Dec-2016 18:54:06 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\JsonResponse() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 68
+[16-Dec-2016 18:54:06 UTC] PHP Stack trace:
+[16-Dec-2016 18:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:54:06 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:54:06 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:54:06 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:54:06 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:54:06 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:54:57 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\JsonResponse() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 68
+[16-Dec-2016 18:54:57 UTC] PHP Stack trace:
+[16-Dec-2016 18:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:54:57 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:54:57 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:54:57 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:54:57 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:54:57 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:58:44 UTC] PHP Fatal error:  Class 'AppBundle\Controller\JsonResponse' not found in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 68
+[16-Dec-2016 18:58:44 UTC] PHP Stack trace:
+[16-Dec-2016 18:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[16-Dec-2016 18:58:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[16-Dec-2016 18:58:44 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Dec-2016 18:58:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[16-Dec-2016 18:58:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[16-Dec-2016 18:58:44 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
