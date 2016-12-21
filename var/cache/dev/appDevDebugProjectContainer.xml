@@ -374,11 +374,11 @@
     </parameter>
   </parameters>
   <services>
-    <service id="app.helpers" class="AppBundle\Services\Helpers">
-      <argument type="string">null</argument>
-    </service>
     <service id="app.jwt_auth" class="AppBundle\Services\JwtAuth">
       <argument type="service" id="doctrine.orm.default_entity_manager"/>
+    </service>
+    <service id="app.helpers" class="AppBundle\Services\Helpers">
+      <argument type="service" id="app.jwt_auth"/>
     </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
@@ -495,7 +495,7 @@
                   <tag name="cache.pool"/>
                   <argument>IF9quAb5FG</argument>
                   <argument>0</argument>
-                  <argument>h6AFB4Y7qhVW4ZPv35Rgvn</argument>
+                  <argument>EEUQ49Rn83X47hJOKulf97</argument>
                   <argument>/home/ubuntu/workspace/s3a2/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -508,7 +508,7 @@
                   <tag name="cache.pool"/>
                   <argument>B1Gs19JOgT</argument>
                   <argument>0</argument>
-                  <argument>h6AFB4Y7qhVW4ZPv35Rgvn</argument>
+                  <argument>EEUQ49Rn83X47hJOKulf97</argument>
                   <argument>/home/ubuntu/workspace/s3a2/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -840,7 +840,7 @@
       <tag name="cache.pool"/>
       <argument>jIu1YECqr-</argument>
       <argument>0</argument>
-      <argument>h6AFB4Y7qhVW4ZPv35Rgvn</argument>
+      <argument>EEUQ49Rn83X47hJOKulf97</argument>
       <argument>/home/ubuntu/workspace/s3a2/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1576,7 +1576,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5852e712a6eda1.35626902</argument>
+            <argument>5858aedd241eb3.48998290</argument>
           </service>
         </argument>
       </argument>
@@ -1710,7 +1710,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5852e712a6eda1.35626902</argument>
+            <argument>5858aedd241eb3.48998290</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>

@@ -8,13 +8,14 @@ class JwtAuth{
     
     
     public $manager;
+    private $key = 'clave-secreta';
     
     public function __construct($manager){
         $this->manager = $manager;
     }
     
     public function signup($email, $password, $getHash = NULL){
-        $key = 'clave-secreta';
+   
         
         $user = $this->manager->getRepository('BackendBundle:User')->findOneBy(
                 
@@ -44,9 +45,9 @@ class JwtAuth{
                 'exp'=> time() + (7*24*60*60) 
                 );
                 
-                $jwt = JWT::encode($token,$key,'HS256');
+                $jwt = JWT::encode($token,$this->key,'HS256');
             
-            $decoded = JWT::decode($jwt,$key,array('HS256'));
+            $decoded = JWT::decode($jwt,$this->key,array('HS256'));
             
             if($getHash != null){
                
@@ -60,6 +61,34 @@ class JwtAuth{
          
         }
         
+    }
+    
+    public function checkToken($jwt, $getIdentity = false){
+        
+        $key = $this->key;
+        $auth = false;
+        $decoded  = null;
+        try{
+            $decoded = JWT::decode($jwt,$this->key,array('HS256'));
+        }catch(\UnexpectedValueException $e){
+            $auth = false;
+        }catch(\DomainException $e){
+            $auth = false;
+        }
+        
+        if(isset($decoded->sub)){
+            $auth = true;
+        }else{
+            $auth = false;
+        }
+        
+        if($getIdentity == true){
+            return $decoded;
+        }else{
+            return $auth;
+        }
+        
+        return ;
     }
     
     

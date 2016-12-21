@@ -455,3 +455,357 @@
 [16-Dec-2016 18:58:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
 [16-Dec-2016 18:58:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
 [16-Dec-2016 18:58:44 UTC] PHP   6. AppBundle\Controller\DefaultController->loginAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[20-Dec-2016 04:12:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 40
+[20-Dec-2016 04:12:13 UTC] PHP Stack trace:
+[20-Dec-2016 04:12:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[20-Dec-2016 04:12:13 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[20-Dec-2016 04:12:13 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[20-Dec-2016 04:12:13 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[20-Dec-2016 04:12:13 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[20-Dec-2016 04:12:13 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[20-Dec-2016 04:12:13 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[20-Dec-2016 04:12:13 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[20-Dec-2016 04:12:13 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:12:13 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:12:13 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:12:13 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[20-Dec-2016 04:14:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php on line 40
+[20-Dec-2016 04:14:30 UTC] PHP Stack trace:
+[20-Dec-2016 04:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[20-Dec-2016 04:14:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[20-Dec-2016 04:14:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[20-Dec-2016 04:14:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[20-Dec-2016 04:14:30 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[20-Dec-2016 04:14:30 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[20-Dec-2016 04:14:30 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[20-Dec-2016 04:14:30 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[20-Dec-2016 04:14:30 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:14:30 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:14:30 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[20-Dec-2016 04:14:30 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[20-Dec-2016 04:14:52 UTC] PHP Parse error:  syntax error, unexpected '$auth' (T_VARIABLE) in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/Helpers.php on line 24
+[20-Dec-2016 04:14:52 UTC] PHP Stack trace:
+[20-Dec-2016 04:14:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[20-Dec-2016 04:14:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[20-Dec-2016 04:14:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[20-Dec-2016 04:14:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[20-Dec-2016 04:14:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[20-Dec-2016 04:14:52 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[20-Dec-2016 04:14:52 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:34
+[20-Dec-2016 04:14:52 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[20-Dec-2016 04:14:52 UTC] PHP   9. appDevDebugProjectContainer->getApp_HelpersService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[20-Dec-2016 04:14:52 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:310
+[20-Dec-2016 04:14:52 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:310
+[20-Dec-2016 04:14:52 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[20-Dec-2016 04:15:07 UTC] PHP Parse error:  syntax error, unexpected '$auth' (T_VARIABLE) in /home/ubuntu/workspace/s3a2/src/AppBundle/Services/Helpers.php on line 24
+[20-Dec-2016 04:15:07 UTC] PHP Stack trace:
+[20-Dec-2016 04:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[20-Dec-2016 04:15:07 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[20-Dec-2016 04:15:07 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[20-Dec-2016 04:15:07 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[20-Dec-2016 04:15:07 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[20-Dec-2016 04:15:07 UTC] PHP   6. AppBundle\Controller\DefaultController->testAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[20-Dec-2016 04:15:07 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/DefaultController.php:34
+[20-Dec-2016 04:15:07 UTC] PHP   8. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:389
+[20-Dec-2016 04:15:07 UTC] PHP   9. appDevDebugProjectContainer->getApp_HelpersService() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:274
+[20-Dec-2016 04:15:07 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:310
+[20-Dec-2016 04:15:07 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:310
+[20-Dec-2016 04:15:07 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:19:34 UTC] PHP Fatal error:  Call to undefined method BackendBundle\Entity\User::setCreateAt() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:19:34 UTC] PHP Stack trace:
+[21-Dec-2016 01:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:19:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:19:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:19:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:19:34 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:19:34 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:21:52 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 75
+[21-Dec-2016 01:21:52 UTC] PHP Stack trace:
+[21-Dec-2016 01:21:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:21:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:21:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:21:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:21:52 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:21:52 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:21:52 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:21:52 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:21:52 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:21:52 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:21:52 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:21:52 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:25:06 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 75
+[21-Dec-2016 01:25:06 UTC] PHP Stack trace:
+[21-Dec-2016 01:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:25:06 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:25:06 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:25:06 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:25:06 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:25:06 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:25:06 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:25:06 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:25:06 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:25:06 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:25:06 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:25:06 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:30:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 75
+[21-Dec-2016 01:30:11 UTC] PHP Stack trace:
+[21-Dec-2016 01:30:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:30:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:30:11 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:30:11 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:30:11 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:30:11 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:30:11 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:30:11 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:30:11 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:30:11 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:30:11 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:30:11 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:33:04 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 77
+[21-Dec-2016 01:33:04 UTC] PHP Stack trace:
+[21-Dec-2016 01:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:33:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:33:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:33:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:33:04 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:33:04 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:33:04 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:33:04 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:33:04 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:33:04 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:33:04 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:33:04 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:45:35 UTC] PHP Fatal error:  Call to undefined method BackendBundle\Entity\User::setCreateAt() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:45:35 UTC] PHP Stack trace:
+[21-Dec-2016 01:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:45:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:45:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:45:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:45:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:45:35 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:45:44 UTC] PHP Fatal error:  Call to undefined method BackendBundle\Entity\User::setCreateAt() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:45:44 UTC] PHP Stack trace:
+[21-Dec-2016 01:45:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:45:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:45:44 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:45:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:45:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:45:44 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:45:51 UTC] PHP Fatal error:  Call to undefined method BackendBundle\Entity\User::setCreateAt() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:45:51 UTC] PHP Stack trace:
+[21-Dec-2016 01:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:45:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:45:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:45:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:45:51 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:45:51 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:48:54 UTC] PHP Fatal error:  Call to undefined method BackendBundle\Entity\User::setCreateAt() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 38
+[21-Dec-2016 01:48:54 UTC] PHP Stack trace:
+[21-Dec-2016 01:48:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:48:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:48:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:48:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:48:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:48:54 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:51:32 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 62
+[21-Dec-2016 01:51:32 UTC] PHP Stack trace:
+[21-Dec-2016 01:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:51:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:51:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:51:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:51:32 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:51:32 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:51:32 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:51:32 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:51:32 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:51:32 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:51:32 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:51:32 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:52:44 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setImage() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 42
+[21-Dec-2016 01:52:44 UTC] PHP Stack trace:
+[21-Dec-2016 01:52:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:52:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:52:44 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:52:44 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:52:44 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:52:44 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:53:16 UTC] PHP Warning:  Unterminated comment starting line 48 in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 48
+[21-Dec-2016 01:53:16 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:16 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:16 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:16 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:16 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:16 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:53:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 77
+[21-Dec-2016 01:53:16 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:16 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:16 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:16 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:16 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:16 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:16 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:53:46 UTC] PHP Warning:  Unterminated comment starting line 39 in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:53:46 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:46 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:46 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:46 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:46 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:46 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:53:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 76
+[21-Dec-2016 01:53:46 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:46 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:46 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:46 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:46 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:46 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:46 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:46 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:46 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:53:58 UTC] PHP Warning:  Unterminated comment starting line 39 in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:53:58 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:58 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:58 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:58 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:58 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:58 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:58 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:58 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:53:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 76
+[21-Dec-2016 01:53:58 UTC] PHP Stack trace:
+[21-Dec-2016 01:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:53:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:53:58 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:53:58 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:53:58 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:53:58 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:53:58 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:53:58 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:53:58 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:53:58 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:54:30 UTC] PHP Warning:  Unterminated comment starting line 39 in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:54:30 UTC] PHP Stack trace:
+[21-Dec-2016 01:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:54:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:54:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:54:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:54:30 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:54:30 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:54:30 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:54:30 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:54:30 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:54:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 76
+[21-Dec-2016 01:54:30 UTC] PHP Stack trace:
+[21-Dec-2016 01:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:54:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:54:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:54:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:54:30 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:54:30 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:54:30 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:54:30 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:54:30 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:30 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:54:31 UTC] PHP Warning:  Unterminated comment starting line 39 in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 39
+[21-Dec-2016 01:54:31 UTC] PHP Stack trace:
+[21-Dec-2016 01:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:54:31 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:54:31 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:54:31 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:54:31 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:54:31 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:54:31 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:54:31 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:54:31 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:54:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 76
+[21-Dec-2016 01:54:31 UTC] PHP Stack trace:
+[21-Dec-2016 01:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:54:31 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:54:31 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:54:31 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:54:31 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:136
+[21-Dec-2016 01:54:31 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:58
+[21-Dec-2016 01:54:31 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2871
+[21-Dec-2016 01:54:31 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:3442
+[21-Dec-2016 01:54:31 UTC] PHP   9. class_exists() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/s3a2/var/cache/dev/classes.php:2927
+[21-Dec-2016 01:54:31 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/s3a2/vendor/composer/ClassLoader.php:301
+[21-Dec-2016 01:56:54 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setImage() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 41
+[21-Dec-2016 01:56:54 UTC] PHP Stack trace:
+[21-Dec-2016 01:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:56:54 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:56:54 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:56:54 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:56:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:56:54 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:57:15 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setImage() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 41
+[21-Dec-2016 01:57:15 UTC] PHP Stack trace:
+[21-Dec-2016 01:57:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:57:15 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:57:15 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:57:15 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:57:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:57:15 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:58:41 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setRole() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 42
+[21-Dec-2016 01:58:41 UTC] PHP Stack trace:
+[21-Dec-2016 01:58:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:58:41 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:58:41 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:58:41 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:58:41 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:58:41 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:59:55 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setRole() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 42
+[21-Dec-2016 01:59:55 UTC] PHP Stack trace:
+[21-Dec-2016 01:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 01:59:55 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 01:59:55 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 01:59:55 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 01:59:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 01:59:55 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 02:02:19 UTC] PHP Fatal error:  Call to undefined function AppBundle\Controller\setImage() in /home/ubuntu/workspace/s3a2/src/AppBundle/Controller/UserController.php on line 40
+[21-Dec-2016 02:02:19 UTC] PHP Stack trace:
+[21-Dec-2016 02:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/s3a2/web/app_dev.php:0
+[21-Dec-2016 02:02:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/s3a2/web/app_dev.php:29
+[21-Dec-2016 02:02:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[21-Dec-2016 02:02:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[21-Dec-2016 02:02:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153}() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
+[21-Dec-2016 02:02:19 UTC] PHP   6. AppBundle\Controller\UserController->newAction() /home/ubuntu/workspace/s3a2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:153
